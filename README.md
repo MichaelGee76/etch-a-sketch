@@ -1,17 +1,13 @@
 # etch-a-sketch
-This is the final version of Etch-A-Sketch. A project from The Odin Project.
-The goal was to understand and deepen the knowledge of DOM manipulation by Javascript.
-Every element on the page is created by the JS . Most of the CSS style is created by JS too. It was fun to create the page, but I struggled a lot and it took me a while. But I've learned a lot:
+This is the final version of Etch-A-Sketch, a project from The Odin Project. The goal was to deepen my understanding of DOM manipulation with JavaScript. Every element on the page is created dynamically through JS, and most of the CSS styling is also applied via JavaScript. It was a fun project to work on, although I encountered many challenges, and it took me some time. However, I learned a great deal in the process.
 
-Of course I got more and more comfortable with creating, styling, applying elements. I structured the script from the beginning, which was a very good helper to not get lost in my own code. I try to establish that for better readability and easier debugging.
-While testing the results by console logs, I got used to the dev tools to debug. Especially the break points you can set, helped me a lot to understand what the code is actually doing. A very funny learning was, that HTML Collections look like Arrays, BUT you can't handle them like Arrays. Even though I've read about that in the course resources, when it's time to put it into reality, everything is much harder. It took me a decade to understand where I made the mistake. But it was fun, I had so many AHA-moments. Great project!
-Last but not least, I got a better understanding of programming logic, but I know, that's just the beginning and the projects so far aren't so demanding. I mean for beginners yes, but there is a long way waiting for me.
+As I progressed, I became increasingly comfortable with creating, styling, and managing elements. Structuring my script from the beginning proved to be a great help in avoiding confusion within my own code. I’m now trying to make this a habit for better readability and easier debugging. Using console logs to test results also got me more familiar with the developer tools, which were invaluable for debugging. Setting breakpoints, in particular, helped me understand exactly what my code was doing.
 
+A funny lesson I learned was that while HTMLCollections look like arrays, you can’t treat them like arrays. Even though I had read about this in the course materials, it was much harder to grasp in practice. It felt like it took me ages to figure out where I was going wrong, but I had many "Aha!" moments along the way, which made it worthwhile. Overall, it was a fantastic project. Lastly, I gained a better understanding of programming logic, though I know this is just the beginning. While these projects are challenging for beginners, I realize there's still a long road ahead.
 
+What you can do:
+When you move your mouse over the canvas, it leaves a pixelated trail, allowing you to draw whatever you like. You can switch the default black color to random rainbow colors and easily revert to black if you prefer. You can also change the grid size by clicking the "Size" button; a prompt will let you select a size between 16 and 100. As for the reset button—no surprises there—it clears the canvas!
 
-What you can do here:
-Whenever the mouse moves over the canvas, it will leave a pixely trail. So you can draw whatever you like. You can change the default black color to the random rainbow colors. If you like you can switch back to black. The default grid can be changed by clicking the size button, a prompt will let you choose a size between 16-100. With the reset button.... sure, you can reset the canvas!
-
-Have fun
+Have fun!
 
 Michael Gee
