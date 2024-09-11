@@ -1,4 +1,3 @@
-
 h1 {
     text-align: center;
     margin-bottom: 3rem;
@@ -8,23 +7,106 @@ h1 {
 
 body {
     background-color: #faebd7;
-    font-family: 'Silkscreen', sans-serif;
+    font-family: "Silkscreen", sans-serif;
     font-size: 2.5rem;
     background-image: radial-gradient(black 1px, transparent 0);
     background-size: 40px 40px;
-
+}
+#buttonContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 100%;
+    gap: 1rem;
 }
 
 .buttons {
-    padding:  0.5rem;
+    padding: 0.5rem;
     font-weight: 300;
     margin-top: 2rem;
     border: 5px outset black;
     border-radius: 5px;
     box-shadow: 10px 5px 5px gray;
-    font-family: 'Silkscreen', sans-serif;
+    font-family: "Silkscreen", sans-serif;
+    flex: 1 1 auto;
+    min-width: 120px;
 }
 
 .buttons:hover {
-    transform: scale(1.5);
+    background-color: #ddd;
+    box-shadow: 10px 5px 15px gray;
+    cursor: pointer;
+}
+
+.buttons:active {
+    background-color: #aaa;
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.5);
+    transform: scale(1);
+}
+p {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    max-width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+#container {
+    width: 30vw;
+    height: 30vw;
+    border: 1rem groove black;
+    border-radius: 8px;
+    margin: auto;
+    box-shadow: 10px 5px 5px gray;
+    background: rgb(239, 244, 234);
+    display: grid;
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 1.5rem;
+    }
+    #buttonContainer {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .buttons {
+        flex: 1 1 40%;
+        margin: 0.5rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    #container {
+        width: 80vw;
+        height: 80vw;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    footer {
+        margin-top: 2rem;
+        padding-bottom: 1rem;
+    }
+}
+
+@media (min-width: 769px) {
+    body {
+        font-size: 2rem;
+    }
+
+    #container {
+        width: 500px;
+        height: 500px;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
 }
